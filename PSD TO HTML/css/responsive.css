@@ -1,0 +1,149 @@
+/*tablet screen*/
+@media only screen and (min-width: 200px) and (max-width: 991px){
+    #mobile_menu{
+            overflow: hidden;
+    }    
+    .inner_main_menu {
+         background: none; 
+         min-height: auto;
+    } 
+    .inner_main_menu::after{
+         display: none;
+    }    
+    .mean-container .mean-nav {
+        margin-top: 22px;
+        width: 95%;
+    }  
+    .mean-container .mean-bar {
+        padding: 2px 0;
+    }
+    #mobile_menu ul li ul{
+        position: initial;
+        background: #0C1923;
+    }    
+    #mobile_menu ul li{
+        border-top: none;
+    }    
+    #mobile_menu ul li ul li ul{
+        background: #0C1923;
+    }
+    #mobile_menu ul li ul li:nth-child(3){
+        background: #0C1923;
+    }
+    #mobile_menu ul li ul li ul li{
+        background: #0C1923;
+    }    
+
+
+    .inner_main_header {
+        padding: 15px 0;
+    }
+
+    #slider_area {
+        margin-top: 0px;
+    }
+    .social_area{
+        margin-top: 12px;;
+    }
+    .inner_hero h2 {
+        font-size: 49px;
+        margin-top: 70px;
+    }
+    .contact_area img {
+    width: 95%;
+    }
+    .child_work_area h2 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    }
+    .service_area .child_service .service_text {
+    width: 70%;
+    }
+    .service_area .child_service {
+    margin-bottom: 18px;
+    }
+    .child_testimonial {
+    margin-bottom: 25px;
+    }
+    
+} 
+/*Mobile screen*/
+@media only screen and (min-width: 200px) and (max-width: 480px){
+    .mini_menu {
+    width: 100%;
+    margin-bottom: 15px;
+}
+    .mini_menu ul {
+    text-align: center;
+}
+    .search_area {
+    width: 250px;
+    float: none;
+    margin: 0 auto;
+}
+    .logo_area {
+    width: 229px;
+    float: none;
+    margin: 0 auto;
+}
+    
+   .social_area {
+    float: none;
+} 
+    .social_area ul{
+    text-align: center;
+}
+    .inner_hero h2 {
+    font-size: 34px;
+}
+    .inner_hero img {
+    margin-bottom: 15px;
+}
+    .inner_hero {
+    margin-bottom: 20px;
+}
+    .contact_area img {
+    width: 99%;
+}
+    .child_work_area {
+    width: 98%;
+    margin: 0 1% 15px;
+}
+    .service_area .child_service .service_text {
+    width: 75%;
+}
+    .child_footer {
+    width: 100%;
+    margin: 0 1% 30px;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
